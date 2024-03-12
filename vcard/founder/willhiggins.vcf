@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Higgins;Will;;;
+FN:Will Higgins
+ORG:hicg.ai
+ADR;TYPE=WORK:
+TITLE:Founder
+TEL;TYPE=CELL:+61432262716
+TEL;TYPE=WORK:
+TEL;TYPE=HOME:
+TEL;TYPE=MSG:
+EMAIL;TYPE=WORK:founder@hicg.ai
+URL;TYPE=Digital Business Card:https://hicg.ai/vcard/founder/
+URL:hicg.ai
+URL;TYPE=Website:hicg.ai
+KEY;TYPE=PGP;ENCODING=b:
+NOTE:Bespoke Consulting for Design, Architecture and Implementation of Innovative AI/ML solutions.
+UID:EnBizCard-100766292
+END:VCARD
