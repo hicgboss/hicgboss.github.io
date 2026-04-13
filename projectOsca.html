@@ -5,6 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Project Osca — One Pager</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/silktide-consent-manager.css">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PSVWMLPK');</script>
+<!-- End Google Tag Manager -->
 <style>
   :root {
     --navy: #1E3A5F;
@@ -377,6 +385,10 @@
 </style>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PSVWMLPK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 <div class="page">
 
@@ -552,4 +564,36 @@
 
   <div class="bottom-bar">
     <span>&copy; 2026 Higgins Consulting Group</span>
-    <a href="https://hicg.ai">hicg.ai</a
+    <a href="https://hicg.ai">hicg.ai</a>
+  </div>
+
+<script src="js/silktide-consent-manager.js"></script>
+<script>
+  window.silktideConsentManager.init({
+    consentTypes: [
+      {
+        id: 'essential',
+        label: 'Essential',
+        description: 'Necessary for the website to function. Cannot be switched off.',
+        required: true,
+      },
+      {
+        id: 'analytics',
+        label: 'Analytics',
+        description: 'Help us understand how visitors interact with the site.',
+        defaultValue: false,
+        gtag: 'analytics_storage',
+      },
+      {
+        id: 'marketing',
+        label: 'Marketing',
+        description: 'Used for personalized advertising.',
+        defaultValue: false,
+        gtag: ['ad_storage', 'ad_user_data', 'ad_personalization'],
+      },
+    ],
+    eventName: 'stcm_consent_update',
+  });
+</script>
+</body>
+</html>
